@@ -8,6 +8,7 @@ namespace TestGame
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -240,26 +241,26 @@ namespace TestGame
                 Console.Write("██");
 
                 Console.SetCursorPosition(32, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(33, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(34, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(35, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(36, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(37, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(38, 1);
-                Console.Write("██");      
-                                          
+                Console.Write("██");
+
                 Console.SetCursorPosition(39, 1);
                 Console.Write("██");
 
@@ -457,10 +458,10 @@ namespace TestGame
                 if (hori == pellet3hori && vert == pellet3vert && pellet3 == true) { pellet3 = false; score++; }
                 if (hori == pellet4hori && vert == pellet4vert && pellet4 == true) { pellet4 = false; score++; }
 
-                
-                
+
+
                 if (bulletAlive == true)
-                    {
+                {
                     Console.SetCursorPosition(bulleth, bulletv);
                     Console.Write("o");
                     bulletv--;
@@ -469,10 +470,10 @@ namespace TestGame
 
                 //key press
 
-                
-                
 
-                
+
+
+
                 {
                     switch (Keyinfo.Key)
                     {
@@ -504,19 +505,19 @@ namespace TestGame
                             Console.SetCursorPosition(hori, vert);
                             Console.Write("██");
                             break;
-                       
+
 
                     }
 
                 }
-                
+
 
 
             } while (redo == 0);
             Console.ReadLine();
-            
+
         }
-        
+
     }
 
 }
